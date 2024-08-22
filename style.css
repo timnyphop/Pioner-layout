@@ -440,9 +440,11 @@ html {
     gap: 10px;
   }
   .products__block-card {
+    width: 100%;
     max-height: auto;
   }
   .products {
+    width: 100%s;
     max-height: auto;
   }
   .products__card,
@@ -453,11 +455,14 @@ html {
 
   .products__block-card,
   .news__block-card {
+    width: 100%;
     flex-direction: column; /* Выстраиваем карточки в одну колонку */
     gap: 20px; /* Отступы между карточками */
   }
-  .footer-data {
-    display: none;
+  .products__card {
+    box-sizing: border-box;
+    width: 100%;
+    max-height: auto;
   }
   .footer__block-content {
     height: 100%;
